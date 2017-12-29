@@ -1,0 +1,1 @@
+cat some_dates.txt | perl -pi.bak -e 's/(\d\d)\/(\d\d)\/(\d\d\d\d)/$3\-$2\-$1/'

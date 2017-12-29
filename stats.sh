@@ -1,0 +1,1 @@
+netstat | perl -ne 'print if 3..12 and s/.*\s+(.*)\:\d+\s+.*/$1/'
